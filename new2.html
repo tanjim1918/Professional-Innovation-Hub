@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Innovative Professional Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            color: #222;
+        }
+        header {
+            background: #1a2980;
+            background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%);
+            color: #fff;
+            padding: 40px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            opacity: 0.85;
+        }
+        .units {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            padding: 40px 5vw;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .unit {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+            padding: 32px 24px;
+            transition: transform 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+        .unit:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 32px rgba(38,208,206,0.12);
+        }
+        .unit-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #1a2980;
+        }
+        .unit-desc {
+            font-size: 1rem;
+            margin-bottom: 18px;
+            color: #444;
+        }
+        .unit-action {
+            display: inline-block;
+            padding: 10px 22px;
+            background: linear-gradient(90deg, #26d0ce 0%, #1a2980 100%);
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .unit-action:hover {
+            background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%);
+        }
+        .unit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 14px;
+            color: #26d0ce;
+            display: block;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .units { padding: 20px 2vw; }
+            .unit { padding: 20px 12px; }
+        }
+        footer {
+            text-align: center;
+            padding: 24px 0;
+            background: #f7fafc;
+            color: #888;
+            font-size: 1rem;
+            margin-top: 40px;
+            border-top: 1px solid #e0eafc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Professional Innovation Hub</h1>
+        <p>Discover unique, beautiful units crafted for modern professionals.</p>
+    </header>
+    <main>
+        <section class="units">
+            <div class="unit">
+                <span class="unit-icon">🌐</span>
+                <div class="unit-title">Global Collaboration</div>
+                <div class="unit-desc">Connect with professionals worldwide in real-time, share ideas, and build projects together using our interactive workspace.</div>
+                <a href="#" class="unit-action">Join Now</a>
+            </div>
+            <div class="unit">
+                <span class="unit-icon">🧠</span>
+                <div class="unit-title">AI-Powered Insights</div>
+                <div class="unit-desc">Leverage cutting-edge AI to analyze your workflow, suggest improvements, and boost your productivity with actionable insights.</div>
+                <a href="#" class="unit-action">Get Insights</a>
+            </div>
+            <div class="unit">
+                <span class="unit-icon">🎨</span>
+                <div class="unit-title">Creative Portfolio</div>
+                <div class="unit-desc">Showcase your work in a stunning, customizable portfolio. Get feedback from peers and potential clients instantly.</div>
+                <a href="#" class="unit-action">Create Portfolio</a>
+            </div>
+            <div class="unit">
+                <span class="unit-icon">🔒</span>
+                <div class="unit-title">Secure Vault</div>
+                <div class="unit-desc">Store your important documents and ideas in an encrypted vault, accessible only to you, with multi-factor authentication.</div>
+                <a href="#" class="unit-action">Secure Now</a>
+            </div>
+            <div class="unit">
+                <span class="unit-icon">🚀</span>
+                <div class="unit-title">Startup Launchpad</div>
+                <div class="unit-desc">Get resources, mentorship, and funding opportunities to turn your innovative ideas into successful startups.</div>
+                <a href="#" class="unit-action">Launch Startup</a>
+            </div>
+            <div class="unit">
+                <span class="unit-icon">📅</span>
+                <div class="unit-title">Smart Scheduler</div>
+                <div class="unit-desc">Organize your meetings, deadlines, and events with an intelligent scheduler that adapts to your workflow.</div>
+                <a href="#" class="unit-action">Try Scheduler</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Professional Innovation Hub. All rights reserved.
+    </footer>
+</body>
